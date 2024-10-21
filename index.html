@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Description"
+      content="This page contains all the things i am learning how to create as i learn HTML."
+    />
+    <title>My first web page</title>
+    <link rel="stylesheet" href="main.css" type="text/class" />
+
+    <style>
+      html {
+        font-size: 22px;
+      }
+
+      body {
+        background-color: #333;
+        color: whitesmoke;
+      }
+      a {
+        color: aliceblue;
+      }
+      a:visited {
+        color: lightgray;
+      }
+      a:hover,
+      a:active {
+        color: #eee;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>My Goals For The Year</h1>
+
+      <nav aria-labelledby="Primary-navigation">
+        <h2 id="Primary-navigation">Primary Navigation</h2>
+        <ul>
+          <li>
+            <a href="#html">Learning HTML</a>
+          </li>
+          <li>
+            <a href="#vacation">Planing a vacation</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+    <main>
+      <article id="html">
+        <h2>I am learnin HTML</h2>
+        <p>This is my first web page.</p>
+        <section>
+          <h3>HTML5</h3>
+          <img
+            src="img/download.png"
+            alt="HTML5 LOGO"
+            title="I am learning HTML5"
+            width="300"
+            height="300"
+          />
+          <figure>
+            <figcaption>An Example of HTML 5 code</figcaption>
+            <p><code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code></p>
+          </figure>
+        </section>
+        <section>
+          <h3>My DAILY SCHEDULE.</h3>
+
+          <p>let me tell you how:</p>
+          <ol>
+            <li>...I learn more about web dev.</li>
+            <li>...I plan out my schedule.</li>
+            <li>
+              ...I reasources from
+              <abbr title="mozilla Developer Network">
+                <a href="https://developer.mozilla.org/">MDN</a> </abbr
+              >.
+            </li>
+          </ol>
+          <aside>
+            <details>
+              <summary>
+                Guess The <mark> Numbers Of Hours </mark> I Code Per Day
+              </summary>
+              <p>
+                I Start At <time datetime="08:00"> 8am </time> and Code For
+                <time datetime="PT3H">3Hours </time> Every Morning.
+              </p>
+            </details>
+          </aside>
+        </section>
+      </article>
+      <hr />
+      <article id="vacation">
+        <h2>I Am Also Planing a vacation</h2>
+        <p>I've been working hard and <em> realy need a getaway</em></p>
+        <p>
+          I live in <abbr title="Kansas">KS</abbr>so I want to visit a beach.
+        </p>
+        <section>
+          <h3>Places I'd Like to visit</h3>
+          <ul>
+            <li>
+              <p>I've heard good things about the caribean .</p>
+
+              <figure>
+                <img
+                  src="img/Capture.PNG"
+                  alt="caribean beach"
+                  title="I want to visit
+          a caribean beach."
+                  width="400"
+                  height="225"
+                  loading="lazy"
+                />
+                <figcaption>caribean beach Getaway</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p>I've hard good things about going here:</p>
+              <address>
+                Margaritaville Island Reserve Riviera Cancun Bahia Petempich
+                puerto Morelos, Mexico Colonia Morelos, Mexico 77580<br />
+              </address>
+              <figure>
+                <img
+                  src="img/vacate.png"
+                  alt="Cancun vacation"
+                  title="It's 5 o' clock somwhere!"
+                  width="400"
+                  height="300"
+                  loading="lazy"
+                />
+                <figcaption>A Caribean Vacation image</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+        <!-- TODO:Add More Places-->
+        <section>
+          <h3>Places I want to avoid</h3>
+          <dl>
+            <dt>North pole</dt>
+            <dd>I hear this is <strong>cold</strong>!</dd>
+            <dt>South pole</dt>
+            <dd>This is also cold.</dd>
+            <dt>Mount Tops</dt>
+            <dd>These are also cold</dd>
+          </dl>
+        </section>
+      </article>
+    </main>
+    <hr />
+    <footer>
+      <p>
+        &lt; &lt; &lt;&copy; <a href="about.html">Abdullahi Umar</a> &gt; &gt;
+        &gt;
+      </p>
+      <p>
+        <a href="#">Back To Top</a>
+      </p>
+    </footer>
+  </body>
+</html>
